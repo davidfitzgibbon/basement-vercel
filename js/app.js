@@ -10,8 +10,6 @@ import PostProcessing from "./PostProcessing";
 
 window.app = new Threeasy(THREE);
 
-app.renderer.toneMapping = THREE.ACESFilmicToneMapping;
-
 new OrbitControls(app.camera, app.renderer.domElement);
 app.camera.position.y += 0.1;
 app.camera.position.z += 1;
